@@ -23,6 +23,27 @@ section {
   border-bottom: 2px solid #393e46;
 }
 
+/* buttons for changing language */
+.srpski,
+.english {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 2rem;
+  border: none;
+  opacity: 0.7;
+}
+
+.srpski:hover,
+.english:hover {
+  opacity: 1;
+}
+.srpski img,
+.english img {
+  padding: 0;
+}
+
 h1 {
   font-size: 3rem;
   font-weight: 700;
